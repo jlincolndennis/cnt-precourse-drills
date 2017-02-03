@@ -23,12 +23,12 @@ public class BusinessTest {
         assertToStringWorks(addressClass);
     }
 
-    // @Test
-    // public void test02_addressableInterfaceShouldExist() {
-    //     Class<?> addressable = assertAddressableInterface();
-    //     assertAddressableGetAddresses(addressable);
-    //     assertAddressableAddAddress(addressable);
-    // }
+    @Test
+    public void test02_addressableInterfaceShouldExist() {
+        Class<?> addressable = assertAddressableInterface();
+        assertAddressableGetAddresses(addressable);
+        assertAddressableAddAddress(addressable);
+    }
 
     // @Test
     // public void test03_businessClassShouldExist() {
