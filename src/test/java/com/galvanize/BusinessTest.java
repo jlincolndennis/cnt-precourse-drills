@@ -30,13 +30,13 @@ public class BusinessTest {
         assertAddressableAddAddress(addressable);
     }
 
-    // @Test
-    // public void test03_businessClassShouldExist() {
-    //     Class<?> business = assertBusinessClass();
-    //     assertBusinessImplementsAddressable(business);
-    //     assessBusinessConstructor(business);
-    //     assessAddressGetterAndSetter(business);
-    // }
+    @Test
+    public void test03_businessClassShouldExist() {
+        Class<?> business = assertBusinessClass();
+        assertBusinessImplementsAddressable(business);
+        assessBusinessConstructor(business);
+        assessAddressGetterAndSetter(business);
+    }
 
     private void assessBusinessConstructor(Class<?> businessClass) {
         Object business;
